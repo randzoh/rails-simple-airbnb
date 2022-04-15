@@ -12,7 +12,7 @@
         <i class="fa-solid fa-dollar-sign"><%= f.price_per_night %></i>
         </div>
         <div class="info mt-auto" >
-          More info
+          <%= link_to 'More info', "flats/#{f.id}" %>
         </div>
       </div>
     <% end %>

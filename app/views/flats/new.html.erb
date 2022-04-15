@@ -1,0 +1,8 @@
+<%= simple_form_for(@flat) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :description %>
+  <%= f.input :price_per_night, as: :numeric %>
+  <%= f.input :number_of_guests, as: :numeric %>
+  <%= f.submit %>
+<% end %>
